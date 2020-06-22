@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://quentinj.com",
+  "homepage": "http://quentinj.com/react_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +13,8 @@
     "react-router-dom": "^4.3.1"
   },
   "scripts": {
-    "dev": "parcel src/react_portfolio.html",
-    "build": "parcel build src/react_portfolio.html",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "start": "npm run build && live-server dist"
   },
   "devDependencies": {
